@@ -5,8 +5,12 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: 0;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 body{
+    background-image: linear-gradient(to left, #002E71, #7729C4);
     background: url(img/neon-tropical-monstera-leaf-banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -20,8 +24,8 @@ body{
 
 .vidro-box{
     margin: auto;
-    width: 400px;
-    max-width: 500px;
+    width: 59%;
+    max-width: 400px;
     padding: 10px 0px;
     background-color: #000000;
     background-color: transparent;
@@ -39,7 +43,8 @@ body{
 
 
 .perfil-img{
-    border: solid 3px rgba(255, 255, 255, 0.534);
+    border-top: 3px solid rgba(255, 255, 255, 0.534);
+    border-bottom: 3px solid rgba(255, 255, 255, 0.534);
     border-radius: 50%;
     box-shadow: 0px 0px 50px 15px #00000077;
 }
@@ -55,7 +60,7 @@ p{
     flex-direction: column;
     align-items: center;
     list-style: none;
-    gap: 5px;
+    gap: 10px;
     margin-top: 15px;
 }
 .botoes{
@@ -63,30 +68,19 @@ p{
     padding: 18px 32px;
     width: 200px;
     border-radius: 20px;
-    border: solid 3px rgba(255, 255, 255, 0.534);
+    border: transparent;
+    border-top: 2px solid rgba(255, 255, 255, 0.534);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.534);
     color: #fff;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
-    text-transform: uppercase;
 }
-
-
-/* Personalização individual (botoes) */
-#github{}
-#instagram{}
-#pinterest{}
-#linkedin{}
-#twitter{}
-
-.icons{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    list-style: none;
-    gap: 15px;
-    margin-top: 20px;
+.botoes:hover{
+    background-color: rgba(0, 0, 0, 0.63);
+    cursor: pointer;
+}
+.icon{
     background-color: #fff;
-    padding: 10px 18px 3px;
-    border-radius: 20px;
+    border-radius: 50%;
+    padding: 3px;
 }
