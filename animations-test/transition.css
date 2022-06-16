@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box{
+    background-color: brown;
+    height: 200px;
+    width: 200px;
+
+    transition-property: background-color, border-radius;
+    transition-duration: 2s, .5s;
+    transition-timing-function: cubic-bezier(.15, .89, .89, .26);
+}
+.box:hover{
+    background-color: lightseagreen;
+    border-radius: 50%;
+}
