@@ -21,67 +21,69 @@ html, body{
     width: 100%;
     height: 100vh;
     background-color: #17181f;
-    background-image: url(img/crossfit-c3a9-mais-narcisista-do-que-parece.webp);
+    background-image: url(img/PR-mets-novosite.png.webp);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 /*to right, #060320 40%, #e2119d, #00e7d0 */
 header{
-    background-color: #17181f;
+    height: 10vh;
+    position: relative;
 }
-.container-conteudo-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 18px 38px;
-}
+
 
 .bt-nav{
+    height: 10vh;
     display: flex;
     flex-direction: row;
-    gap: 30px;
-    color: #fff;
-    font-family: "Road_Rage";
-    font-size: 16px;
-    font-weight: 100;
-    letter-spacing: 2px;
+    justify-content: end;
+    align-items: center;
 }
-.bt:hover{
-    padding: 5px 0;
-    letter-spacing: 5px;
-    color: #cb94ff;
-    text-shadow: 0 0 10px #6000b9,
-                 0 0 25px #6000b9,
-                 0 0 50px #6000b9,
-                 0 0  75px #6000b9,
-                 0 0 100px #6000b9;
-                 animation: 2s linear infinite;
-                 
-                 transition: 1s;
+.bt{
+    padding: 25px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #fff;
+    letter-spacing: 2px;
+    cursor: pointer;
+
+    transition: background .5s;
 }
 #bt-cadastro{
-    background-image: linear-gradient(to right, #6000b9, #00e7d0);
-    padding: 12px 18px;
-    border: none;
-    border-radius: 30px;
+    background: linear-gradient(to right, #6000b975, #00e7d0);
 }
-
 .logo h1{
     position: absolute;
     top: 10px;
-    left: 20px;
+    left: 50px;
     font-family: "Indelible";
     font-size: 20px;
     font-weight: lighter;
     letter-spacing: 5px;
     color: #00e7d0;
-    border-radius: 50%;
     padding: 10px;
     border-top: 2px solid #00e7d0;
     background-color: #6000b9;
-}
-.container-conteudo{
+    border-radius: 50%;
+    text-shadow: 0 0 0 20px #6000b9,
+                 0 0 0 40px #6000b9,
+                 0 0 0 80px #6000b9,
+                 0 0 0 100px #6000b9;
+                 
     
 }
+
+.container-conteudo{
+
+}
+.container-conteudo .texto{
+    color: #00e7d0;
+    font-family: "Road_Rage";
+    font-size: 3.5rem;
+    text-align: center;
+    text-shadow: 0 0 20px black;
+}
+
+
