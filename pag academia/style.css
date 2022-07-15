@@ -21,7 +21,7 @@ html, body{
     width: 100%;
     height: 100vh;
     background-color: #17181f;
-    background-image: url(img/PR-mets-novosite.png.webp);
+    background-image: url(img/crossfit-c3a9-mais-narcisista-do-que-parece.webp);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -67,23 +67,36 @@ header{
     border-top: 2px solid #00e7d0;
     background-color: #6000b9;
     border-radius: 50%;
-    text-shadow: 0 0 0 20px #6000b9,
-                 0 0 0 40px #6000b9,
-                 0 0 0 80px #6000b9,
-                 0 0 0 100px #6000b9;
-                 
-    
-}
-
-.container-conteudo{
 
 }
+.logo:hover h1{
+    box-shadow: 0 0 0 15px #6000b938,
+                0 0 0 30px #6000b938,
+                0 0 0 45px #6000b938,
+                0 0 0 60px #6000b938;
+
+    cursor: pointer;
+    transition: 1s;
+}
+
 .container-conteudo .texto{
     color: #00e7d0;
     font-family: "Road_Rage";
     font-size: 3.5rem;
     text-align: center;
-    text-shadow: 0 0 20px black;
+    letter-spacing: 8px;
+    margin-top: 50px;
+}
+.container-conteudo .texto h2{
+    text-shadow: 3px 3px 5px black;
+}
+
+.container-conteudo .texto p{
+    margin-top: 50px;
+    color: #fff;
+    font-size: 2rem;
+    letter-spacing: 5px;
+    text-shadow: 3px 3px 5px black;
 }
 
 
